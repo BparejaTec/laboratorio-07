@@ -28,15 +28,12 @@ class Animal {
         $this->edad = $edad;
     }
 
-    public function getEspecie() {
-        return $this->especie;
-    }
 
     public function setEspecie($especie) {
         $this->especie = $especie;
     }
 
     public function hacerSonido() {
-        echo "El animal hace un sonido.";
+        echo "los animales hace un sonido.";
     }
 }
